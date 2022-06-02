@@ -1,0 +1,53 @@
+      <figure class="txtover">
+        <img src="img/tinyboat.jpg" alt="A tiny boat">
+        <figcaption>
+              <h1 class="titlereveal">Welcome</h1>
+              <h2 class="subheaderreveal">Please use the navigation bar on the left</h2>
+        </figcaption>
+      </figure>
+      
+      
+
+
+      background: #4e54c8;  
+      background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+
+
+      .txtover figcaption h1 {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        color: white;
+        text-align: center;
+        font-size: 4.5rem;
+        font-weight: 400;
+        letter-spacing: .3rem;
+        text-shadow: .3rem .4rem .7rem black;
+        line-height: 100px;
+      }
+      
+      .txtover figcaption h2 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        color: white;
+        text-align: center;
+        font-size: 2.0rem;
+        font-weight: 400;
+        letter-spacing: .3rem;
+        text-shadow: .3rem .3rem .6rem black;
+      }
+
+      .context h1{
+        text-align: center;
+        color: #fff;
+        font-size: 5.0rem;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500;
+        letter-spacing: .3rem;
+        text-shadow: .3rem .3rem .6rem black;
+    }
