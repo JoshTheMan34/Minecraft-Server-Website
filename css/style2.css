@@ -10,12 +10,20 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
-
-.context {
+/* Not Needed */
+.context h1 {
     width: 100%;
     position: absolute;
-    top:44vh;
+    top: 44vh;
 }
+
+.context h2 {
+    width: 100%;
+    position: absolute;
+    top: 44vh;
+}
+/* Not Needed */
+
 
 
 .circles{

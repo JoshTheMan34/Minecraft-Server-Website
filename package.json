@@ -2,7 +2,7 @@
   "name": "sass-compile",
   "version": "1.0.0",
   "description": "A simple sass compile config",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css"

@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bobby's Minecraft Server</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script defer src="theme.js"></script>
+    <script defer src="js/theme.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="shortcut icon" href="img/Bobby Perry Logo.jpg">
   </head>
   <body>
     <nav class="navbar" id="navbar-fix">
@@ -171,16 +172,21 @@
   
 
 
-    <div class="main">
+    <div class="main container-fluid">
       <figure class="txtover">
-        <img src="img/tinyboat.jpg" alt="A tiny boat">
+        <img src="img/tinyboat.jpg" alt="A tiny boat" class="home-image-pc">
+        <img src="img/small-screens-portrait-image.avif" alt="A tiny boat" class="home-image-mobile">
         <figcaption>
           <div class="context">
-            <h1>
-              Bobby's
+            <h1 class="titlereveal">
+              Dubious
               <br>
               Minecraft Server
             </h1>
+            <h2 class="subheaderreveal">
+              dubious.apexmc.co
+            </h2>
+
          </div>
          
          <div class="area">
@@ -205,8 +211,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <script>
-      ScrollReveal().reveal('.titlereveal', {interval: 1000 , duration: 2500 });
-      ScrollReveal().reveal('.subheaderreveal' , { duration: 3500 , interval: 500 });
+      ScrollReveal().reveal('.titlereveal', {interval: 1000 , duration: 1500 });
+      ScrollReveal().reveal('.subheaderreveal' , { duration: 2500 , interval: 500 });
     </script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
