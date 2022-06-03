@@ -15,6 +15,12 @@
     background-color: white;
     margin: 0;
     padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
   }
   
   .main img{
@@ -23,7 +29,7 @@
   }
 
   .navbar {
-    position: fixed;
+    position:fixed;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow:hidden;

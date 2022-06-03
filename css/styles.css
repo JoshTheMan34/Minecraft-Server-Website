@@ -333,8 +333,7 @@ body {
     }
 
     .waves {
-        width: 100vw;
-        margin-bottom: -7px; /*Fix for safari gap*/
+        width: 100%;
         padding-top: 5rem;
         height:400px;
         margin-bottom:-7px; /*Fix for safari gap*/
@@ -374,3 +373,4 @@ body {
           min-height:40px;
         }
       }
+
